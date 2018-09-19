@@ -1,11 +1,10 @@
 package com.fantesting.qaautomation.pages;
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import java.util.List;
-
 
 public class ContactPage {
 
