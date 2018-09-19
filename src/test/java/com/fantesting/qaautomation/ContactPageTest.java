@@ -9,13 +9,12 @@ import org.junit.Test;
 public class ContactPageTest extends BaseTest {
 
     @Test
-    public void testNumberOfOfficesAreCorrect(){
+    public void testNumberOfOfficesAreCorrect() {
         HomePage homePage = navigateToValtechWebsite();
-       AboutPage aboutPage = homePage.navigateToAbout();
-       ContactPage contactPage=aboutPage.navigateToContactPage();
-       int officeCount = contactPage.numberOfOffices();
-        Assert.assertEquals(officeCount,37);
-
+        AboutPage aboutPage = homePage.navigateToAbout();
+        ContactPage contactPage = aboutPage.navigateToContactPage();
+        int officeCount = contactPage.numberOfOffices();
+        Assert.assertEquals(officeCount, 37);
 
 
     }

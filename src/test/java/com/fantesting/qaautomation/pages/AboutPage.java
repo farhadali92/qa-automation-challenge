@@ -36,6 +36,9 @@ public class AboutPage {
     public ContactPage  navigateToContactPage(){
         Actions actions = new Actions(driver);
         actions.moveToElement(ourOfficesLink).click().build().perform();
+
+//        ourOfficesLink.click();
         return new ContactPage(driver);
+
     }
 }
