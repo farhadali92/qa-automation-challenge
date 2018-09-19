@@ -13,3 +13,4 @@ I could not attempt the third task, however I would have done it as follows:
 
 ## Adopted Strategy
 The whole testing framework is structure using Page Object Model design pattern where I separated the assert and selenium communication via different page object for each page in the website.
+
